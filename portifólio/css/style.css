@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+body{
+    background-color: black;
+}
+#ul1{
+    list-style: none;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(31, 35, 59);
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   justify-content: end;
+   border: solid 1px white;
+  
+}
+#ul1 li{
+   margin-left: 8px;
+   margin-right: 10px;
+  
+}
+#ul1 li a{
+    color: white;
+    text-decoration: none;
+ }
+ #home{
+    position:absolute;
+    left: 20px;
+ }
+ #conteudoPrinci{
+    width: 800px;
+    height: 550px;
+    background-color: rgb(31, 35, 59);
+    margin-left: 30px;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.container{
+    width: 496px;
+    height: 200px;
+    background-color: rgb(31, 35, 59);
+    border: solid 1px white;
+    position: relative;
+}
+.container p{
+    color: rgb(199, 213, 252);
+    width: 450px;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:large;
+}
+.container2{
+    width: 496px;
+    height: 200px;
+    background-color: rgb(31, 35, 59);
+    border: solid 1px white;
+    position: relative;
+}
+.container2 p{
+    color: white;
+    width: 455px;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:large;
+}
+.container3{
+    width: 450px;
+    height: 400px;
+    background-color: red;
+    position: absolute;
+    left: 52%;
+    top: 42px;
+    border: solid 1px black;
+    
+}
+.container3 img{
+    width: 450px;
+    height: 400px;
+    position:absolute;
+   
+}
+
+#rodape{
+    width: 100%;
+    height: 180px;
+    background-color: rgb(31, 35, 59);
+    position: relative;
+    color: white;
+
+    
+}
+#rodape ul{
+    position: absolute;
+    left: 20%;
+    list-style: none;
+    top:10%
+
+}
+#rodape a {
+    color: white;
+    text-decoration: none;
+}
+
